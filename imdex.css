@@ -1,6 +1,32 @@
 * {
     margin: 0;
     padding: 0;
+    list-style: none;
     box-sizing: border-box;
+}
 
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.img-start {
+  border: 2px solid red;
+}
+
+#img-master{
+    border: 3px dashed blue;
+}
+
+.relative{
+    margin-left: 30px;
+    background: red;
+    width: 1000px;
+    height: 1000px;
+}
+
+.absolute{
+    background: black;
+    width: 100px;
+    height: 100px;
 }
